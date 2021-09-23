@@ -1,85 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+	<title>Form User</title>
+  <h1 align="center">User Form</h1>
+
+<form action="" method="POST">
+<style type="text/css">
+	tr,td,h3{
+		padding: 10px;
+	}
+
+</style>
 </head>
 <body>
-<form action="result.html" method="GET">
-<h2 align="center">User Form</h2>
-<table border="0" align="left" cellpadding="10" >
-<tr>
-    <td>
-        <label>First Name </td>
-    <td>
-        <input type="text" name="name"/>
-    </td>
-</tr>
-<tr>
-    <td>Password</td>
-    <td>
-        <input type="password" name="password"/>
-    </td>
-</tr>
-<tr>
-    <td>Gender</td>
-    <td>
-        <input type="radio" name="gender" value="male" />Male
-        <input type="radio" name="gender" value="Female" />Female
-    </td>
-</tr>
-<tr>
-    <td>Alamat </td>
-    <td>
-        <textarea name="alamat" row="5" cols="31"></textarea>
-    </td>
-</tr>
-<tr>
-    <td>D.O.B</td>
-    <td>
-        <input type="date" size="30" name="date" />
-    </td>
-</tr>
-<tr>
-    <td>Select Games</td>
-    <td>
-            <div>
-              <input type="checkbox" name="hockey" id="hockey">
-              <label for="hockey">Hockey</label>
-              <input type="checkbox" name="football" id="football">
-              <label for="football">Football</label>
-              <input type="checkbox" name="cricket" id="cricket">
-              <label for="cricket">Cricket</label>
-              <input type="checkbox" name="volleyball" id="volleyball">
-              <label for="volleyball">VolleyBall</label>
-            </div>
-    </td>
-</tr>
-<tr>
-    <td>Marital Status</td>
-    <td>
-            <div>
-                <input type="radio" name="marital status" id="married" value="married">
-                <label for="married">Married</label>
-                <input type="radio" name="marital status" id="unmarried" value="unmarried">
-                <label for="unmarried">Unmarried</label>
-            </div>
-    </td>
-</tr>
-<tr>
-    <td></td>
-    <td>
-        <input type="submit" Value="Submit" align="right">
-        <input type="reset" Value="Reset">
-        <div>
-            <input type="checkbox" name="agrement" id="agrement">
-            <label for="agrement">I accept this agrement</label>
-        </div>
-    </td>
-</tr>
+	<body bgcolor="Greenlime" text="black">
+	<h1 align="center"></h1>
+<table>
+		<tr>
+			<td>First Name</td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td><input type="Password"></td>
+		</tr>
+		<tr>
+			<td>Gender</td>
+			<td>
+				<input type="radio" name="Gender"> Male
+				<input type="radio" name="Gender"> Female
+			</td>
+		</tr>
+		<tr>
+			<td>Address</td>
+			<td><textarea></textarea></td>
+
+		</tr>
+		<tr>
+			<td>D.O.B</td>
+			<td><input type="date"></td>
+		</tr>
+		<tr>
+			<td>Select Games</td>
+			<td>
+				<input type="Checkbox" > Hockey
+				<input type="Checkbox" > Football
+				<input type="Checkbox" > Cricket
+				<input type="Checkbox" > Voleyball
+			</td>
+		</tr>
+		<tr>
+			<td>Marital Status</td>
+			<td>
+				<input type="Checkbox" > Married
+				<input type="Checkbox" > Unmarried
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<input type="submit" value= "Submit">
+				<input type="reset" value= "Reset">
+			</td>
+		</tr>
+			<tr><td>
+			<td>
+				<input type="Checkbox" > I accept this aggrement
+			</td>
+		</tr>
 </table>
-</form>
 </body>
 </html>
